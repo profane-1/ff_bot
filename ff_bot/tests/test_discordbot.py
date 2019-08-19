@@ -11,7 +11,7 @@ class DiscordTestCase(unittest.TestCase):
     '''Test DiscordBot class'''
 
     def setUp(self):
-        self.url = "https://discordapp.com/api/webhooks/123/abc"
+        self.url = "https://discordapp.com/api/webhooks/613136960491356172/yc9tgBNtDeYgjEu9rkGmHLshs0yQfSsdXYzJyG6AIYfAD4t0H-fFK8_LIuKtPU0B4L9q"
         self.test_bot = DiscordBot(self.url)
         self.test_text = "This is a test."
 
